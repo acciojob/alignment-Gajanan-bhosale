@@ -6,9 +6,18 @@
     font-family: Arial, sans-serif;
 }
 
+table {
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1px;
+}
+
 .middle {
     margin: 40px auto;
-    border-collapse: collapse;
     font-family: Arial, sans-serif;
 }
 
@@ -26,15 +35,15 @@
     text-align: center;
 }
 
-.text-left {
+.left {
     text-align: left;
 }
 
-.text-center {
+.center {
     text-align: center;
 }
 
-.text-right {
+.right {
     text-align: right;
 }
 
@@ -53,7 +62,7 @@
     margin: 15px auto;
     max-width: 100%;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .side-cell {
@@ -64,13 +73,12 @@
     width: 40%;
     border-left: none;
     border-right: none;
-    padding: 10px 0;
 }
 
 .border-left-none {
-    border-left: none;
+    border-left: none !important;
 }
 
 .border-right-none {
-    border-right: none;
+    border-right: none !important;
 }
