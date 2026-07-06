@@ -1,59 +1,61 @@
-h1{
-    text-align:center;
-    font-size:20px;
-	margin-bottom: 0px
+/* General Elements */
+h1 {
+    text-align: center;
+    font-family: sans-serif;
 }
 
-.middle{
-    width:95%;
-    margin:40px auto;
-    border-spacing:1px;
+/* Base Table Styling */
+table {
+    border-collapse: separate;
+    border-spacing: 1px;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
-table{
-    border:1px solid black;
-    border-spacing:1px;
+table, td {
+    border: 1px solid black;
 }
 
-td{
-    border:1px solid black;
-    padding:1px;
-    height:30px;
+td {
+    padding: 1px;
+    height: 25px; /* Ensures empty cells retain vertical height */
 }
 
-.center{
-    text-align:center;
+/* Table 2 Specific Dimensions */
+#table-2 td {
+    height: 30px;
 }
 
-.right{
-    text-align:right;
+/* Functional Utility Classes */
+.middle {
+    /* Required assignment class hook */
 }
 
-.green td{
-    background-color:green;
-    height:30px;
+.center {
+    text-align: center;
 }
 
-.blue td{
-    background-color:blue;
-    height:30px;
+.right {
+    text-align: right;
 }
 
-#table-3{
-    text-align:center;
+.green {
+    background-color: green;
 }
 
-#table-3 td:first-child,
-#table-3 td:last-child{
-    width:30%;
+.blue {
+    background-color: blue;
 }
 
-#t-image{
-    width:40%;
+/* Table 3 Image Formatting */
+#t-image {
+    text-align: center;
+    width: 40%;
 }
 
-#t-image img{
-    width:250px;
-    display:block;
-    margin:auto;
+#t-image img {
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 250px;
+    width: auto;
 }
