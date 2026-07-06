@@ -1,61 +1,53 @@
-/* General Elements */
-h1 {
-    text-align: center;
-    font-family: sans-serif;
+h1{
+    font-size:20px;
 }
 
-/* Base Table Styling */
-table {
-    border-collapse: separate;
-    border-spacing: 1px;
-    width: 100%;
-    margin-bottom: 40px;
+.middle{
+    width:90%;
+    margin:40px auto;
+    border-spacing:1px;
 }
 
-table, td {
-    border: 1px solid black;
+table{
+    border:1px solid black;
 }
 
-td {
-    padding: 1px;
-    height: 25px; /* Ensures empty cells retain vertical height */
+td{
+    border:1px solid black;
+    padding:1px;
+    height:30px;
 }
 
-/* Table 2 Specific Dimensions */
-#table-2 td {
-    height: 30px;
+.center{
+    text-align:center;
 }
 
-/* Functional Utility Classes */
-.middle {
-    /* Required assignment class hook */
+.right{
+    text-align:right;
 }
 
-.center {
-    text-align: center;
+.green td{
+    background-color:green;
 }
 
-.right {
-    text-align: right;
+.blue td{
+    background-color:blue;
 }
 
-.green {
-    background-color: green;
+#table-3{
+    text-align:center;
 }
 
-.blue {
-    background-color: blue;
+#table-3 td:first-child,
+#table-3 td:last-child{
+    width:30%;
 }
 
-/* Table 3 Image Formatting */
-#t-image {
-    text-align: center;
-    width: 40%;
+#t-image{
+    width:40%;
 }
 
-#t-image img {
-    display: inline-block;
-    vertical-align: middle;
-    max-height: 250px;
-    width: auto;
+#t-image img{
+    display:block;
+    margin:auto;
 }
