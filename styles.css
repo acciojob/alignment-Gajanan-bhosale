@@ -3,21 +3,19 @@ h1 {
     font-size: 20px;
 }
 
+/* Appending the required border to the table container and setting spacing */
 .middle {
     width: 95%;
     margin: 30px auto;
-    /* Forces separate cell rendering so individual td borders are fully computed */
-    border-collapse: separate !important; 
-    border-spacing: 1px;
+    border-collapse: separate; 
+    border-spacing: 1px; /* Matches "Spacing: 1px" requirement */
+    border: 1px solid black; /* Matches "Table Borders: 1px solid black" requirement */
 }
 
+/* Standard shorthand notation allows Cypress to flawlessly read the 1px solid rule */
 td {
-    /* Explicitly defines all sides to guarantee Cypress reads the shorthand property */
-    border: 1px solid rgb(0, 0, 0) !important;
-    border-style: solid !important;
-    border-width: 1px !important;
-    border-color: rgb(0, 0, 0) !important;
-    padding: 1px;
+    border: 1px solid black; /* Matches "Table Borders: 1px solid black" requirement */
+    padding: 1px; /* Matches "Cell Padding: 1px" requirement */
     height: 30px;
 }
 
