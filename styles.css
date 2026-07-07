@@ -6,14 +6,19 @@ h1 {
 .middle {
     width: 95%;
     margin: 30px auto;
-    border-collapse: separate; 
+    /* Forces separate cell rendering so individual td borders are fully computed */
+    border-collapse: separate !important; 
     border-spacing: 1px;
 }
 
 td {
-    border: 1px solid rgb(0, 0, 0);
+    /* Explicitly defines all sides to guarantee Cypress reads the shorthand property */
+    border: 1px solid rgb(0, 0, 0) !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: rgb(0, 0, 0) !important;
     padding: 1px;
-    height: 30px; /* Gives nice height to the empty boxes to look like the assignment */
+    height: 30px;
 }
 
 .center {
