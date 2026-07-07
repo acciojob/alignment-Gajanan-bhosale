@@ -6,17 +6,14 @@ h1 {
 .middle {
     width: 95%;
     margin: 30px auto;
-    /* Changed from collapse to separate so Cypress can read individual cell borders */
     border-collapse: separate; 
-    border-spacing: 0px; 
-    border: 1px solid rgb(0, 0, 0);
+    border-spacing: 1px;
 }
 
-/* Explicitly targets td elements with matching rgb syntax expected by Cypress */
 td {
     border: 1px solid rgb(0, 0, 0);
     padding: 1px;
-    height: 20px;
+    height: 25px; /* Gives the empty cells a visible height like the target image */
 }
 
 .center {
@@ -42,4 +39,5 @@ td {
 #t-image img {
     display: block;
     margin: auto;
+    max-height: 150px; /* Optional: keeps the image size bounded nicely */
 }
