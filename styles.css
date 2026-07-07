@@ -13,7 +13,7 @@ h1 {
 td {
     border: 1px solid rgb(0, 0, 0);
     padding: 1px;
-    height: 25px; /* Gives the empty cells a visible height like the target image */
+    height: 30px; /* Gives nice height to the empty boxes to look like the assignment */
 }
 
 .center {
@@ -39,5 +39,4 @@ td {
 #t-image img {
     display: block;
     margin: auto;
-    max-height: 150px; /* Optional: keeps the image size bounded nicely */
 }
