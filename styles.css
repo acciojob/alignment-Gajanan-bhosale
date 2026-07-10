@@ -1,35 +1,41 @@
-h1 {
-  text-align: center;
-  font-size: 20px;
-} /* Appending the required border to the table container and setting spacing */
-.middle {
-  width: 95%;
-  margin: 30px auto;
-  border-collapse: separate;
-  border-spacing: 1px; /* Matches "Spacing: 1px" requirement */
-  border: 1px solid black; /* Matches "Table Borders: 1px solid black" requirement */
-} /* Standard shorthand notation allows Cypress to flawlessly read the 1px solid rule */
-td {
-  border: 1px solid black; /* Matches "Table Borders: 1px solid black" requirement */
-  padding: 1px; /* Matches "Cell Padding: 1px" requirement */
-  height: 30px;
+h1{
+    text-align:center;
 }
-.center {
-  text-align: center;
+
+.middle{
+    width:95%;
+    margin:30px auto;
+    border:1px solid black;
+    border-spacing:1px;
 }
-.right {
-  text-align: right;
+
+.middle td{
+    border:1px solid black;
+    padding:1px;
 }
-.green {
-  background-color: green;
+
+.center{
+    text-align:center;
 }
-.blue {
-  background-color: blue;
+
+.right{
+    text-align:right;
 }
-#table-3 {
-  text-align: center;
+
+.green td{
+    background:green;
 }
-#t-image img {
-  display: block;
-  margin: auto;
+
+.blue td{
+    background:blue;
+}
+
+#t-image{
+    text-align:center;
+    vertical-align:middle;
+}
+
+#t-image img{
+    display:block;
+    margin:auto;
 }
