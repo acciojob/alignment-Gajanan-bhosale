@@ -1,41 +1,41 @@
-h1{
-    text-align:center;
+h1 {
+  text-align: center;
+  font-size: 20px;
+} 
+.middle {
+    border: 1px solid black;
+    border-spacing: 1px;
+    border-collapse: separate;
+    margin: 30px auto;
+    width: 95%;
 }
 
-.middle{
-    width:95%;
-    margin:30px auto;
-    border:1px solid black;
-    border-spacing:1px;
+.middle td {
+    border: 1px solid black;
+    padding: 1px;
 }
 
-.middle td{
-    border:1px solid black;
-    padding:1px;
+td {
+  border: 1px solid black; 
+  padding: 1px; 
+  height: 30px;
 }
-
-.center{
-    text-align:center;
+.center {
+  text-align: center;
 }
-
-.right{
-    text-align:right;
+.right {
+  text-align: right;
 }
-
-.green td{
-    background:green;
+.green {
+  background-color: green;
 }
-
-.blue td{
-    background:blue;
+.blue {
+  background-color: blue;
 }
-
-#t-image{
-    text-align:center;
-    vertical-align:middle;
+#table-3 {
+  text-align: center;
 }
-
-#t-image img{
-    display:block;
-    margin:auto;
+#t-image img {
+  display: block;
+  margin: auto;
 }
