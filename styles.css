@@ -39,7 +39,9 @@ td {
     text-align: center;
 }
 
+
 #t-image img {
     display: block;
     margin: auto;
+	height:220px;
 }
